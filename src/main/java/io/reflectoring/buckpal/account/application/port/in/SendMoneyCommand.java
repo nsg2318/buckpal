@@ -31,4 +31,5 @@ class SendMoneyCommand extends SelfValidating<SendMoneyCommand> {
         this.money = money;
         this.validateSelf();
     }
+
 }
